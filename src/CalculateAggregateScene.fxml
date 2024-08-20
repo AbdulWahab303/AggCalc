@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="1080.0" prefWidth="1920.0" styleClass="meritBackground" stylesheets="@Main.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CalculateAggregateSceneController">
+   <Button fx:id="exit" layoutX="69.0" layoutY="52.0" mnemonicParsing="false" prefHeight="145.0" prefWidth="168.0" styleClass="button-custom3" stylesheets="@Main.css">
+      <font>
+         <Font size="48.0" />
+      </font>
+   </Button>
+   <Label layoutX="126.0" layoutY="216.0" text="Home">
+      <font>
+         <Font size="20.0" />
+      </font>
+   </Label>
+   <ComboBox fx:id="universityBox" layoutX="722.0" layoutY="103.0" prefHeight="40" prefWidth="300" promptText="Select University" AnchorPane.leftAnchor="722.0" AnchorPane.topAnchor="103.0" />
+
+   <TextField fx:id="matricMarks" layoutX="786.0" layoutY="216.0" prefHeight="50.0" prefWidth="300.0" promptText="Enter Matric Marks out of 1100" AnchorPane.leftAnchor="786.0" AnchorPane.topAnchor="216.0" />
+
+   <TextField fx:id="fscMarks" layoutX="786.0" layoutY="280.0" prefHeight="50.0" prefWidth="300.0" promptText="Enter FSC Marks out of 1100" AnchorPane.leftAnchor="786.0" AnchorPane.topAnchor="280.0" />
+
+   <HBox layoutX="823.0" layoutY="373.0" spacing="20">
+      <RadioButton fx:id="satButton" text="SAT" />
+      <RadioButton fx:id="ntsButton" text="NTS" />
+      <RadioButton fx:id="natButton" text="NAT" />
+   </HBox>
+
+   <CheckBox fx:id="hafizCheckBox" layoutX="872.0" layoutY="527.0" text="HAFIZ-E-QURAN" AnchorPane.leftAnchor="872.0" AnchorPane.topAnchor="527.0" />
+
+   <Button fx:id="calculateButton" layoutX="844.0" layoutY="596.0" text="Calculate Aggregate" AnchorPane.leftAnchor="844.0" AnchorPane.topAnchor="596.0" />
+   <Label fx:id="errorLabel" layoutX="786.0" layoutY="660.0" styleClass="error-label" text="" />
+   <TextField fx:id="entryTest" layoutX="786.0" layoutY="433.0" prefHeight="50.0" prefWidth="300.0" promptText="Enter Entry Test Marks" />
+   <Button fx:id="pucitLink" layoutX="853.0" layoutY="831.0" mnemonicParsing="false" prefHeight="145.0" prefWidth="168.0" styleClass="button-custom4" stylesheets="@Main.css">
+      <font>
+         <Font size="48.0" />
+      </font>
+   </Button>
+   <Button fx:id="nustLink" layoutX="1167.0" layoutY="831.0" mnemonicParsing="false" prefHeight="145.0" prefWidth="168.0" styleClass="button-custom5" stylesheets="@Main.css">
+      <font>
+         <Font size="48.0" />
+      </font>
+   </Button>
+   <Button fx:id="fastLink" layoutX="533.0" layoutY="831.0" mnemonicParsing="false" prefHeight="145.0" prefWidth="168.0" styleClass="button-custom6" stylesheets="@Main.css">
+      <font>
+         <Font size="48.0" />
+      </font>
+   </Button>
+   <Label layoutX="640.0" layoutY="753.0" text="For Admission and other visit website">
+      <font>
+         <Font size="36.0" />
+      </font>
+   </Label>
+   <Label layoutX="585.0" layoutY="1003.0" text="PUCIT">
+      <font>
+         <Font size="24.0" />
+      </font>
+   </Label>
+   <Label layoutX="905.0" layoutY="1003.0" text="NUST">
+      <font>
+         <Font size="24.0" />
+      </font>
+   </Label>
+   <Label layoutX="1219.0" layoutY="1003.0" text="FAST">
+      <font>
+         <Font size="24.0" />
+      </font>
+   </Label>
+   <Label fx:id="answer" layoutX="745.0" layoutY="678.0" prefHeight="53.0" prefWidth="384.0" text="">
+      <font>
+         <Font size="36.0" />
+      </font>
+   </Label>
+</AnchorPane>

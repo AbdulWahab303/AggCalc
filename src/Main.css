@@ -1,0 +1,191 @@
+.combo-box {
+    -fx-pref-width: 500px;
+    -fx-pref-height: 100px;
+    -fx-background-color: #cbce73;
+    -fx-border-radius:20px;
+}
+
+.combo-box .list-cell {
+    -fx-font-size: 16px;
+    -fx-font-family: "Arial";
+    -fx-padding: 5px;
+    -fx-border-width: 0 0 1px 0;
+    -fx-border-color: #c0c0c0;
+    -fx-background-color: #cbce73;
+    -fx-text-fill: black;
+}
+
+.combo-box .arrow {
+    -fx-font-size: 16px;
+}
+
+.combo-box .combo-box-popup .list-view .list-cell {
+    -fx-font-size: 24px;
+    -fx-font-family: "Arial";
+    -fx-text-fill: black;
+}
+
+.combo-box .prompt-text {
+    -fx-font-size: 16px;
+    -fx-font-family: "Arial";
+    -fx-text-fill: black;
+}
+
+.combo-box .text-field {
+    -fx-text-fill: black;
+    -fx-background-color: #cbce73;
+}
+
+.combo-box .combo-box-popup .list-view .list-cell .image-view {
+    -fx-fit-height: 40px;
+    -fx-fit-width: 40px;
+}
+
+.combo-box .combo-box-popup .list-view .list-cell:selected {
+    -fx-text-fill: black;
+    -fx-background-color: #cbce73;
+}
+
+.combo-box .list-cell .image-view {
+    -fx-fit-height: 40px;
+    -fx-fit-width: 40px;
+}
+
+.button-custom {
+    -fx-background-image: url("images/calculator.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 100px 100px;
+}
+
+.button-custom2 {
+    -fx-background-image: url("images/merits.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 100px 100px;
+}
+
+.button-custom3 {
+    -fx-background-image: url("images/exit.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 100px 100px;
+}
+
+.button-custom4 {
+    -fx-background-image: url("images/pucit.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 100px 100px;
+}
+
+.button-custom5 {
+    -fx-background-image: url("images/nust.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 100px 100px;
+}
+
+.button-custom6 {
+    -fx-background-image: url("images/fast.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 100px 100px;
+}
+
+.anchor-pane {
+    -fx-background-image: url("images/uni.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 800px 1080px;
+}
+
+.text-field {
+    -fx-background-color: #cbce73;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+    -fx-text-fill:black;
+}
+
+.text-field .prompt-text {
+    -fx-text-fill:black;
+    -fx-background-color:blue;
+}
+
+.radio-button {
+    -fx-text-fill: #333333;
+}
+
+.check-box {
+    -fx-text-fill: #333333;
+}
+
+.button {
+    -fx-background-color: #cbce73;
+    -fx-text-fill: "black";
+    -fx-border-radius: 5px;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px;
+    -fx-effect: innershadow(gaussian, rgba(0,0,0,0.2), 5, 0.5, 0, 0);
+}
+
+.button:hover {
+    -fx-background-color: #6d8145;
+}
+
+.button:pressed {
+    -fx-background-color: #3f6146;
+}
+
+.text-field-invalid {
+    -fx-border-color: red;
+    -fx-border-width: 2px;
+}
+
+.custom-table {
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-padding: 5px;
+    -fx-background-color:#e6e1ce;
+}
+
+.custom-table .column-header {
+    -fx-background-color: #f5f5f5;
+    -fx-text-fill: #333333;
+    -fx-padding: 5px;
+}
+
+.custom-table .table-cell {
+    -fx-padding: 5px;
+}
+
+.custom-table .table-row-cell {
+    -fx-padding: 5px;
+    -fx-background-color: #f9f9f9;
+}
+
+.custom-table .table-row-cell:filled {
+    -fx-background-color:#e6e1ce;
+}
+
+.custom-table .table-row-cell:hover {
+    -fx-background-color: #e0e0e0;
+}
+
+.custom-table .table-column-header {
+    -fx-background-color: #e0e0e0;
+    -fx-text-fill: #333333;
+}
+
+.anchor-pane {
+    -fx-background-color:#f2e0c0;
+}
+
+.meritBackground {
+    -fx-background-color:#f2e0c0;
+}
+
+.error-label {
+    -fx-text-fill: red;
+    -fx-font-size: 14px;
+}
